@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #33CCCC;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.page__nav-link {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0px 30px;
+}
+
+.page__sign-link {
+    padding: 8px 25px 8px 25px;
+    color: #FF6845;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.page__nav-link:first-child {
+    margin-left: 0px;
+}
+
+.page__nav-link:last-child {
+    margin-right: 0px;
+}
+
+.page-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 145px;
+}
+
+.page-wrapper {
+    width: 50%;
+    margin-top: 135px;
+}
+
+.page__wrapper-text h1 {
+    font-weight: 600;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.page__wrapper-text p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+.form-field {
+    width: 286px;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.form-field input, button {
+    font-family: 'Open Sans', sans-serif;
+    width: 286px;
+    height: 50px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.46);
+    padding: 11px 10px 17px 16px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.iphone-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+}
+
+.iphone-icon {
+    width: 240px;
+    height: 150px;
+    border-radius: 9px;
+    padding-top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.img-iphone-icon {
+    padding-bottom: 10px;
+}
+
+.item-1 {
+    position: absolute;
+    top: 123px;
+    left: 29px;
+    background-color: #F28964;
+}
+
+.item-2 {
+    position: absolute;
+    top: 75px;
+    right: 36px;
+    background: #4A90E2;
+}
+
+.item-3 {
+    position: absolute;
+    top: 269px;
+    right: 96px;
+    background: #C964F2;
+}
+
+.iphone-link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.action-form-button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #4A4A4A;
+    border-radius: 2px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+.social-link {
+    padding: 0 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+}   
+
+
+.terms {
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.terms p{
+    padding-right: 10px;
+}
+
+.terms-link {
+    color: #ffffff;
+}
+
+.terms-link:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+.page__nav-link:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+.action-form-button:hover {
+    opacity: 70%;
+    transition: 1s;
+}

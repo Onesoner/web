@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+.header__top {
+    background-color: #1B1B1B;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    margin: 23px;
+}
+
+.menu-item:first-child {
+    margin-left: 0px;
+}
+
+.menu-item:last-child {
+    margin-right: 0px;
+}
+
+.menu-link {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.header__content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: calc(100vh - 60px);
+    padding: 10px;
+}
+
+.header__content-inner {
+    position: relative;
+}
+
+
+
+.header__form {
+    max-width: 441px;
+    position: absolute;
+    top: calc(30vh - 60px);
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 15px 20px;
+}
+
+.header__form-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+
+.place__wrapper,
+.arrival__wrapper,
+.exit__wrapper,
+.adults__wrapper,
+.children__wrapper
+ {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.place__lable {
+    padding: 0 0 15px 7px;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: #484848;
+}
+
+.header__form-input {
+    height: 48px;
+    max-width: 376px;
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+    padding: 0 15px;
+    outline: none;
+}
+
+.header__form-input--item-1 {
+    max-width: 188px;
+}
+
+.dates__wrapper,
+.people__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.place__wrapper
+.arrival__wrapper,
+.exit__wrapper,
+.adults__wrapper,
+.children__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.arrival__lable,
+.exit__lable,
+.adults__lable,
+.children__lable {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #484848;
+    padding-bottom: 12px;
+}
+
+.btn__wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__form-btn {
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 24px 12px 24px;
+    background-color: #FF5A5F;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.travel__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px 20px;
+    margin-top: 82px;
+}
+
+.travel__card-item {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.14);
+}
+
+.travel__card-img {
+    width: 290px;
+    height: 331px;
+}
+
+.travel__card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 16px;
+    color: #222222;
+    margin: 18px 19px;
+}
+
+.tavel__card-main-info,
+.travel__card-price,
+.travel__card-button {
+    margin-left: 19px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    margin-bottom: 11px;
+}
+
+.travel__card-button {
+    width: 252px;
+    background: #18C6D1;
+    border-radius: 5px;
+    padding: 10px 77px;
+    outline: none;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.header__form-btn:hover,
+.travel__card-button:hover {
+    background: #14D081;
+    transition: 0.3s;
+}
+
+@media (max-width: 575px) {
+    .header__top-inner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-item {
+        margin: 10px;
+    }
+
+    .header__form {
+        top: 0;
+        left: 0;
+        right: 0;
+    }   
+    
+    .travel__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 24px 20px;
+        justify-items: center;
+        margin-top: 20px;
+    }
+}

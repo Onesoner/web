@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Airbnb</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container header__top-inner">
+                <nav class="menu-list">
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">Shop</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">Contact us</a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+        <div class="header__content" style="background-image: url(images/main-img.jpg);">
+            <div class="container header__content-inner">
+                <form class="header__form" action="#">
+                    <h2 class="header__form-title">Бронируйте<br> уникальное жилье</h2>
+                    <div class="place__wrapper">
+                        <label class="place__lable" for="place">ГДЕ</label>
+                        <input class="header__form-input" id="place" type="text">
+                    </div>
+                    <div class="dates__wrapper">
+                        <div class="arrival__wrapper">
+                            <label class="arrival__lable" for="arrival">ПРИБЫТИЕ</label>
+                            <input class="header__form-input header__form-input--item-1" id="arrival" type="text">
+                        </div>
+                        <div class="exit__wrapper">
+                            <label class="exit__lable" for="exit">ВЫЕЗД</label>
+                            <input class="header__form-input header__form-input--item-1" id="exit" type="text">
+                        </div>
+                    </div>
+                    <div class="people__wrapper">
+                        <div class="adults__wrapper">
+                            <label class="adults__lable" for="adults">ВЗРОСЛЫЕ</label>
+                            <input class="header__form-input header__form-input--item-1" id="adults" type="text">
+                        </div>
+                        <div class="children__wrapper">
+                            <label class="children__lable" for="children">ДЕТИ</label>
+                            <input class="header__form-input header__form-input--item-1" id="children" type="text">
+                        </div>
+                    </div>
+                    <div class="btn__wrapper">
+                        <button class="header__form-btn" type="submit">Начать поиск</button>
+                    </div>
+                </form>
+            </div>
+    </header>
+    <section class="tavel">
+        <div class="container travel__content">
+            <div class="travel__card-item">
+                <img src="images/travelcard-photo.jpg" alt="" class="travel__card-img">
+                <div class="travel__card-wrapper">
+                    <p class="travel__card-title">Индонезия</p>
+                    <p class="travel__card-rank">4.5</p>
+                </div>
+                <div class="travel__card-descr">
+                    <p class="tavel__card-main-info">Убежище в джунглях на прекрасном Бали</p>
+                    <p class="travel__card-price">От 820$ на человека</p>
+                </div>
+                <button class="travel__card-button">Бронировать</button>
+            </div>
+            <div class="travel__card-item">
+                <img src="images/travelcard-photo.jpg" alt="" class="travel__card-img">
+                <div class="travel__card-wrapper">
+                    <p class="travel__card-title">Индонезия</p>
+                    <p class="travel__card-rank">4.5</p>
+                </div>
+                <div class="travel__card-descr">
+                    <p class="tavel__card-main-info">Убежище в джунглях на прекрасном Бали</p>
+                    <p class="travel__card-price">От 820$ на человека</p>
+                </div>
+                <button class="travel__card-button">Бронировать</button>
+            </div>
+            <div class="travel__card-item">
+                <img src="images/travelcard-photo.jpg" alt="" class="travel__card-img">
+                <div class="travel__card-wrapper">
+                    <p class="travel__card-title">Филипины</p>
+                    <p class="travel__card-rank">4.5</p>
+                </div>
+                <div class="travel__card-descr">
+                    <p class="tavel__card-main-info">Убежище в джунглях на прекрасном Бали</p>
+                    <p class="travel__card-price">От 820$ на человека</p>
+                </div>
+                <button class="travel__card-button">Бронировать</button>
+            </div>
+            <div class="travel__card-item">
+                <img src="images/travelcard-photo.jpg" alt="" class="travel__card-img">
+                <div class="travel__card-wrapper">
+                    <p class="travel__card-title">Индия</p>
+                    <p class="travel__card-rank">3.7</p>
+                </div>
+                <div class="travel__card-descr">
+                    <p class="tavel__card-main-info">Убежище в джунглях на прекрасном Бали</p>
+                    <p class="travel__card-price">От 820$ на человека</p>
+                </div>
+                <button class="travel__card-button">Бронировать</button>
+            </div>
+            <div class="travel__card-item">
+                <img src="images/travelcard-photo.jpg" alt="" class="travel__card-img">
+                <div class="travel__card-wrapper">
+                    <p class="travel__card-title">Вьетнам</p>
+                    <p class="travel__card-rank">4.5</p>
+                </div>
+                <div class="travel__card-descr">
+                    <p class="tavel__card-main-info">Убежище в джунглях на прекрасном Бали</p>
+                    <p class="travel__card-price">От 820$ на человека</p>
+                </div>
+                <button class="travel__card-button">Бронировать</button>
+            </div>
+            <div class="travel__card-item">
+                <img src="images/travelcard-photo-1.jpg" alt="" class="travel__card-img">
+                <div class="travel__card-wrapper">
+                    <p class="travel__card-title">Петра</p>
+                    <p class="travel__card-rank">4.5</p>
+                </div>
+                <div class="travel__card-descr">
+                    <p class="tavel__card-main-info">Убежище в джунглях на прекрасном Бали</p>
+                    <p class="travel__card-price">От 820$ на человека</p>
+                </div>
+                <button class="travel__card-button">Бронировать</button>
+            </div>
+            <div class="travel__card-item">
+                <img src="images/travelcard-photo.jpg" alt="" class="travel__card-img">
+                <div class="travel__card-wrapper">
+                    <p class="travel__card-title">Индонезия</p>
+                    <p class="travel__card-rank">4.5</p>
+                </div>
+                <div class="travel__card-descr">
+                    <p class="tavel__card-main-info">Убежище в джунглях на прекрасном Бали</p>
+                    <p class="travel__card-price">От 820$ на человека</p>
+                </div>
+                <button class="travel__card-button">Бронировать</button>
+            </div>
+            <div class="travel__card-item">
+                <img src="images/travelcard-photo-2.jpg" alt="" class="travel__card-img">
+                <div class="travel__card-wrapper">
+                    <p class="travel__card-title">Индонезия</p>
+                    <p class="travel__card-rank">4.5</p>
+                </div>
+                <div class="travel__card-descr">
+                    <p class="tavel__card-main-info">Убежище в джунглях на прекрасном Бали</p>
+                    <p class="travel__card-price">От 820$ на человека</p>
+                </div>
+                <button class="travel__card-button">Бронировать</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

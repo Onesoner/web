@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #50E3C2;
+}
+
+.calendar-wrapper {
+    width: 343px;
+    border-radius: 4px;
+    background: #fff;
+    margin: 0px auto;
+    border: 1px solid #DFE4EF;
+    border-radius: 4px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-header h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 16px;
+}
+
+.btn {
+    border: none;
+    color: inherit;
+    background: #fff;
+    outline: none;
+}
+
+.previous-month {
+    padding-top: 20px;
+    padding-left: 14px;
+}
+
+.next-month {
+    padding-top: 20px;
+    padding-right: 14px;
+}
+
+.calendar-days {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 14px 15px 14px;
+}
+.calendar-days button{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+    color: #7F8FA4;
+    border: none;
+    background: #fff;
+    outline: none;
+    width: 44px;
+    height: 44px;
+}
+
+.calendar-dates {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 14px 33px 14px;
+}
+
+.calendar-dates button {
+    color: #2C3135;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+    background: #fff;
+    width: 44px;
+    height: 44px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+button.previous-date {
+    color: #BAC2C7;
+    background: #EDF2F5;
+}
+
+button.date_17.active {
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #50E3C2;
+}
+
+.calendar-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 17px 24px 48px;
+}
+
+.calendar-footer button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    color: #2C3135;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}

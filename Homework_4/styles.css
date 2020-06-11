@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #292325;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-nav {
+  text-align: center;
+  height: 90px;
+  border-bottom: 2px solid #131313;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.page-link {
+  color: #131313;
+  display: inline-block;
+  margin: 0 20px;
+  line-height: 90px;
+}
+
+.page-link.active {
+  color: rgb(98, 98, 98);
+}
+
+.page-link:hover {
+  color: rgb(98, 98, 98);
+}
+
+.page-link:focus {
+  color: green;
+}
+
+.page-link:active {
+  color: red;
+}
+
+.page-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.field {
+  outline: none;
+}
+.field:hover {
+  border: 2px solid red;
+}
+
+.field:focus {
+  border: 2px solid yellow;
+}
+
+.field:active {
+  border: 2px solid blue;
+}
+
+.list-item:hover::after {
+  content: '+';
+  font-size: 25px;
+  color: light-green;
+  border: 1px solid green;
+}
+
+.page-content {
+  /* background: red; */
+  min-height: 100vh;
+}
+
+.name-section {
+  text-align: center;
+}
+
+.section-text {
+  margin: 25px 0;
+}
+
+.section-text a {
+  color: black;
+  font-size: 21px;
+  font-style: italic;
+}
+
+.promotion-baner {
+  font-size: 0;
+}
+
+.baner-item {
+  font-size: 15px;
+  height: 680px;
+  width: calc(33.3333% - 16px);
+  display: inline-block;
+  margin: 0 12px;
+  position: relative;
+  text-align: center;
+}
+
+
+.item-description {
+  position: absolute;
+  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.action-button {
+  display: block;
+  width: 150px;
+  color: #292325;
+  margin: 40px auto 0;
+  padding: 12px 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.action-button:hover {
+  border-color: #292325;
+}
+
+.baner-item.colored {
+  background-color: #f7eae4;
+}
+
+.baner-item.with-image, .baner-item-main.with-image, .social-item-image {
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.baner-item.with-image:first-child {
+  margin-left: 0;
+}
+
+.baner-item.with-image:last-child {
+  margin-right: 0;
+}
+
+.logo {
+  text-align: center;
+  background-color: #ebebf2;
+  margin: 12px 0;
+}
+
+.logo-text {
+  padding: 30px 0;
+}
+
+.baner-item-main {
+  font-size: 15px;
+  height: 436px;
+  width: calc(50% - 15px);
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.baner-item-main.with-image:first-child {
+  margin-left: 0;
+}
+
+.baner-item-main.with-image:last-child {
+  margin-right: 0;
+}
+
+.baner-item-main {
+  position: relative;
+}
+
+.meet-button-action {
+  display: block;
+  position: absolute;
+  text-align: center;
+  right: 10%;
+  bottom: 10%;
+  width: 150px;
+  line-height: 49px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #292325;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.meet-button-action:hover {
+  border-color: #292325;
+}
+
+.social-item-image {
+  display: inline-block;
+  width: 133px;
+  height: 133px;
+  margin: 0px;
+}
+
+.social-header {
+  text-align: center;
+  font-size: 32px;
+  margin: 35px 0px;
+}
+
+.subscribe-logo {
+  margin-top: 135px;
+}
+
+.subcribe-text {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.subscribe-form {
+  width: 353px;
+  margin: 0 auto;
+  text-align: center;
+}
+  
+.enter-email, .subscribe-form-button {
+  width: 338px;
+  height: 33px;
+  color: black;
+  border: 3px solid red;
+  outline: none;
+}
+
+.enter-email {
+  padding: 3px 21px 3px 21px;
+  font-size: 14px;
+}
+
+.subscribe-form-button {
+  margin-top: 2px;
+  background-color: #292325;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+}
+
+.subscribe-form-button:hover {
+  background-color: #998D9F;
+  transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+
+.page-footer {
+  margin-top: 45px;
+  padding: 15px;
+  font-size: 13px;
+  background: #f7e9e4;
+  text-align: center;
+  color: #292325;
+}
+
+.footer-link {
+  color: #292325;
+}

@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #74408C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-field {
+    width: 464px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.form-header {
+    text-align: center;
+    font-size: 30px;
+    line-height: 34px;
+    color: #74408C;
+    padding: 40px 26px 55px 27px;
+}
+
+.input-field {
+    width: 391px;
+    height: 55px;
+    color: #787E8C; 
+    background: #E5E9ED;
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+    margin: 0px 36px 14px 36px;
+    outline: none;
+}
+
+.form-field div input {
+    padding: 22px 26px 22px 16px;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.dws-btn {
+    width: 391px;
+    height: 55px;
+    color: white;
+    background: #74408C;
+    border: none;
+    text-align: center;
+    background: #74408C;
+    border: 1px solid #74408C;
+    border-radius: 5px;
+    text-align: center;
+    margin: 50px 36px 30px 36px;
+    outline: none;
+}
+.forgot {
+    text-align: center;
+    padding: 0px 88px 30px 88px;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.forgot a {
+    text-decoration: none;
+}
+
+.dws-btn:hover {
+    background: #B649E8;
+    border: 1px solid #B649E8;
+}
+
+input:focus::-webkit-input-placeholder { 
+    color:transparent; 
+}
